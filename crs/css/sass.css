@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fontcolor: #490b4e;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgba(218, 95, 230, 0.5960784314);
+  font-family: "Roboto", serif;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 55rem;
+  height: 45rem;
+  padding: 3rem 3.3rem;
+  background-color: #fff;
+  border-radius: 2.3rem;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: 12px 12px 12px rgba(50, 7, 48, 0.377) inset, -10px -10px 10px rgba(165, 108, 157, 0.4941176471) inset;
+}
+
+.container h1 {
+  font-size: 4rem;
+  color: var(--fontcolor);
+  text-align: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 2rem;
+  font-size: 2rem;
+  color: var(--fontcolor);
+}
+
+.input-container {
+  width: 100%;
+  height: 5rem;
+  position: relative;
+  box-shadow: 10px 10px 10px rgba(91, 76, 91, 0.171) inset, -1px -1px 10px rgba(91, 76, 91, 0.653) inset;
+  border-radius: 2rem;
+}
+
+button {
+  position: absolute;
+  box-shadow: -1px -1px 10px rgba(111, 108, 111, 0.653), 10px 10px 10px rgba(242, 233, 242, 0.171);
+  border-radius: 2rem;
+  padding: 1rem;
+  border: none;
+  width: 9rem;
+  height: 4rem;
+  top: 0.5rem;
+  right: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  color: var(--fontcolor);
+  font-size: 2rem;
+}
+button:hover {
+  box-shadow: 10px 10px 10px rgba(91, 76, 91, 0.171) inset, -1px -1px 10px rgba(91, 76, 91, 0.653) inset;
+}
+
+ul {
+  margin-left: 3.3rem;
+}
+
+ul li {
+  font-size: 3rem;
+  color: var(--fontcolor);
+  position: relative;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+ul li.checked {
+  text-decoration: line-through;
+  color: rgba(124, 59, 130, 0.4823529412);
+}
+
+ul span {
+  font-size: 5rem;
+  color: rgba(231, 39, 39, 0.8117647059);
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}/*# sourceMappingURL=sass.css.map */

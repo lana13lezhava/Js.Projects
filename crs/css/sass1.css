@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: rgba(218, 95, 230, 0.5960784314);
+  background-color: rgba(242, 240, 243, 0.5960784314);
   font-family: "Roboto", serif;
 }
 
@@ -35,7 +35,7 @@ body {
   justify-content: start;
   flex-direction: column;
   gap: 2rem;
-  box-shadow: 12px 12px 12px rgba(50, 7, 48, 0.377) inset, -10px -10px 10px rgba(165, 108, 157, 0.4941176471) inset;
+  box-shadow: 12px 12px 12px rgba(141, 136, 141, 0.377) inset, -10px -10px 10px rgba(209, 206, 209, 0.4941176471) inset;
 }
 
 .container h1 {
@@ -103,4 +103,4 @@ ul span {
   position: absolute;
   right: 0;
   cursor: pointer;
-}/*# sourceMappingURL=sass.css.map */
+}/*# sourceMappingURL=sass1.css.map */

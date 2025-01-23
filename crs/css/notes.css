@@ -6,9 +6,69 @@
 }
 
 body {
-  background-color: #586a75;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.7652310924) 0%, rgba(148, 187, 233, 0.8128501401) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.container {
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 0;
+  gap: 1.5rem;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  background-color: rgb(237, 73, 144);
+  box-shadow: 12px 12px 12px rgba(238, 174, 202, 0.5294117647), -10px -10px 10px rgba(238, 174, 202, 0.3843137255);
+  border-radius: 1.2rem;
+  font-size: 1.7rem;
+  color: white;
+  transition: all 0.4s;
+}
+.btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(148, 188, 233);
+  box-shadow: 2px 2px 12px rgb(223, 230, 237);
+}
+
+.notes-container {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.input-box {
+  color: rgb(237, 73, 144);
+  font-size: 1.4rem;
+  outline: none;
+  width: 40rem;
+  height: 10rem;
+  background-color: rgba(255, 255, 255, 0.8823529412);
+  border-radius: 1rem;
+  padding: 1.8rem;
+  position: relative;
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 12px rgba(238, 174, 202, 0.5294117647) inset;
 }/*# sourceMappingURL=notes.css.map */
